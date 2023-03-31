@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(../images/quiz-bg.jpg);
+    background-size: cover;
+}
+h2.head {
+    text-align: right;
+    font-size: 2em;
+    color: white;
+    font-family: 'Agency FB';
+    color: white;
+}
+main {
+    margin: 12% 20% 0% 20%;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+div.questions {
+    display: none;
+}
+div#question1 {
+    display: block;
+
+}
+h1.qn-header {
+    font-family: 'Agency FB';
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+p.qn-header {
+    font-size: 20px;
+    font-family: 'Arial Narrow';
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+input {
+    margin-right: 5px;
+}
+p.Options {
+    font-size: 20px;
+    font-family: 'Calibri';
+}
+p.button-foot {
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+p.button-foot button {
+    padding: 5px 20px;
+    margin-right: 7px;
+    font-family: 'Lucida sans';
+    border: none;
+    border-radius: 5px;
+    background-color: #0000ff;
+    color: #fff;
+    font-weight: 600;
+    transition: 1s;
+    cursor: pointer;
+}
+p.button-foot button:disabled {
+    background-color: #00a4ff5e;
+}
+p.button-foot button:hover {
+    background-color: #00a4ff5e;
+}
+button.btn-submit {
+    padding: 4px 30px;
+    font-family: 'Agency FB';
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #0000ff85;
+    color: white;
+    cursor: pointer;
+    transition: 1s;
+    border: none;
+    border-radius: 3px;
+}
+button.btn-submit:hover{
+background-color: #0020ff6b;
+}
+    /*div#results {
+position: absolute;
+    background-color: blue;
+    padding: 20px 50px;
+    margin-left: 23%;
+    bottom: 40%;
+    display: none;
+
+}*/
+div#results h3 {
+    font-family: 'Agency FB';
+    font-size: 30px;
+}
